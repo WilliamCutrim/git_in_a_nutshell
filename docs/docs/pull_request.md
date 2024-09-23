@@ -1,0 +1,1 @@
+A Pull Request (PR) is a request to add changes from a development branch to a main branch in a Git repository. PRs are used for code review, discussion, and approval before integrating the changes. They are essential for collaboration and DevOps workflows.

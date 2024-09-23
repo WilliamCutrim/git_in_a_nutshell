@@ -1,0 +1,17 @@
+site_name: Git Basic
+
+theme:
+ name: material
+
+plugins:
+- search
+- mkdocs_quiz
+
+nav:
+  - Basic Commands: index.md
+  - Gitflow: git_flow.md
+  - Gitignore: gitignore.md
+  - Git Pull and Git Push: pull_push.md
+  - Gitcheckout Merge and rebase: gitcheckout.md
+  - Conflicts: conflict.md
+  - Pull Request: pull_request.md
