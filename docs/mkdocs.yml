@@ -10,8 +10,10 @@ plugins:
 nav:
   - Basic Commands: index.md
   - Gitflow: git_flow.md
-  - Gitignore: gitignore.md
+  - Create Branch: create_branch.md
   - Git Pull and Git Push: pull_push.md
   - Gitcheckout Merge and rebase: gitcheckout.md
   - Conflicts: conflict.md
   - Pull Request: pull_request.md
+  - Gitignore: gitignore.md
+  - Quiz: quiz.md
