@@ -3,7 +3,19 @@ repo_url: https://github.com/WilliamCutrim/git_in_a_nutshell
 repo_name: WilliamCutrim/git_in_a_nutshell
 
 theme:
- name: material
+  name: material
+
+  palette:
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
 
 plugins:
 - search
