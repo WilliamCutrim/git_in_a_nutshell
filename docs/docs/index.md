@@ -1,4 +1,4 @@
-# Git Basics
+# Git in a nutshell
 
 ## What is Git?
 Git is a distributed version control system designed to handle everything from small to very large projects. However, it can also be use to register change in any kind of folder. 
