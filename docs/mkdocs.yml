@@ -4,15 +4,14 @@ repo_name: WilliamCutrim/git_in_a_nutshell
 
 theme:
   name: material
-
   palette:
     - scheme: slate
-      primary: deep purple
+      #primary: deep purple
       toggle:
         icon: material/weather-sunny
         name: Modo claro
     - scheme: default
-      primary: deep purple
+      #primary: deep purple
       toggle:
         icon: material/weather-night
         name: Modo noturno
