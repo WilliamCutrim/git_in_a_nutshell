@@ -15,5 +15,7 @@ nav:
   - Gitcheckout Merge and rebase: gitcheckout.md
   - Conflicts: conflict.md
   - Pull Request: pull_request.md
+  - Good practices: good_pratices.md
   - Gitignore: gitignore.md
   - Quiz: quiz.md
+  - References: references.md

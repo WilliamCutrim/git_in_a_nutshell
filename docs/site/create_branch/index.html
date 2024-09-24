@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../git_flow/">
       
       
-        <link rel="next" href="../create_branch/">
+        <link rel="next" href="../pull_push/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Gitflow - Git Basic</title>
+        <title>Create Branch - Git Basic</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#gitflow" class="md-skip">
+        <a href="#git-and-bitbucket-branching" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Gitflow
+              Create Branch
             
           </span>
         </div>
@@ -208,6 +208,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../git_flow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gitflow
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -224,7 +244,7 @@
           
   
   <span class="md-ellipsis">
-    Gitflow
+    Create Branch
   </span>
   
 
@@ -235,7 +255,7 @@
         
   
   <span class="md-ellipsis">
-    Gitflow
+    Create Branch
   </span>
   
 
@@ -257,9 +277,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#branches" class="md-nav__link">
+  <a href="#what-is-branching" class="md-nav__link">
     <span class="md-ellipsis">
-      Branches
+      What is Branching?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands-for-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commands for Git
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands-for-bitbucket" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commands for Bitbucket
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Commands for Bitbucket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#via-web-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Via Web Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extra Resources
     </span>
   </a>
   
@@ -269,26 +331,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../create_branch/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Create Branch
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -440,9 +482,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#branches" class="md-nav__link">
+  <a href="#what-is-branching" class="md-nav__link">
     <span class="md-ellipsis">
-      Branches
+      What is Branching?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands-for-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commands for Git
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#commands-for-bitbucket" class="md-nav__link">
+    <span class="md-ellipsis">
+      Commands for Bitbucket
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Commands for Bitbucket">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#via-web-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Via Web Interface
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extra Resources
     </span>
   </a>
   
@@ -463,15 +547,27 @@
                   
 
 
-<h1 id="gitflow">Gitflow</h1>
-<p><img alt="Image" src="../images/gitflow.png" /></p>
-<h2 id="branches">Branches</h2>
+<h1 id="git-and-bitbucket-branching">Git and Bitbucket Branching</h1>
+<h2 id="what-is-branching">What is Branching?</h2>
+<p>Branching in Git and Bitbucket allows developers to isolate their work from others, making it possible to work on multiple features or fixes simultaneously without affecting the main codebase.</p>
+<h2 id="commands-for-git">Commands for Git</h2>
 <ul>
-<li><code>main</code>: Contains the code of the current production version.</li>
-<li><code>develop</code>: Development branch where new features and fixes are integrated.</li>
-<li><code>feature</code>: Temporary branches used for developing new features.</li>
-<li><code>hotfix</code>: Branches created to fix critical bugs in the production version.</li>
-<li><code>release</code>: Branch prepared to launch a new production version, allowing for minor adjustments.</li>
+<li><code>git branch &lt;name&gt;</code> - Creates a new branch locally.</li>
+<li><code>git checkout -b &lt;name&gt;</code> - Creates a new branch and switches to it.</li>
+<li><code>git push -u origin &lt;name&gt;</code> - Pushes the new branch to the remote repository and sets up tracking.</li>
+</ul>
+<h2 id="commands-for-bitbucket">Commands for Bitbucket</h2>
+<h3 id="via-web-interface">Via Web Interface</h3>
+<ol>
+<li><strong>Navigate to the repository:</strong> Open your repository in Bitbucket.</li>
+<li><strong>Create a New Branch:</strong> Click on 'Create branch' in the sidebar.</li>
+<li><strong>Set Details:</strong> Choose the branch name, type (feature, hotfix, etc.), and the base branch.</li>
+<li><strong>Create:</strong> Click 'Create' to finalize the branch creation.</li>
+</ol>
+<h2 id="extra-resources">Extra Resources</h2>
+<ul>
+<li>Git cheat sheet <a href="https://education.github.com/git-cheat-sheet-education.pdf">git-cheat-sheet-education.pdf</a>.</li>
+<li>Bitbucket branching model guide <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">bitbucket-branching-model</a>.</li>
 </ul><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;

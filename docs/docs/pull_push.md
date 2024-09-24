@@ -6,7 +6,7 @@ The `git pull` command is used to fetch changes made in a remote repository and 
 
 Common usage:
 ```
-git pull origin master
+git pull origin main
 ```
 This command pulls changes from the master branch of the remote repository identified as origin and merges those changes into the current branch of your local repository.
 
@@ -22,5 +22,5 @@ The `git push` command is used to push your local changes to a remote repository
 
 Common usage:
 ```
-git push origin master
+git push origin main
 ```
