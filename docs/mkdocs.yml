@@ -1,7 +1,19 @@
 site_name: Git Basic
 
 theme:
- name: material
+  name: material
+
+  palette:
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
 
 plugins:
 - search
