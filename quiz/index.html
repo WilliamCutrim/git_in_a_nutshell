@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../gitignore/">
       
-      
-        <link rel="next" href="../create_branch/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Gitflow - Git Basic</title>
+        <title>Quiz - Git Basic</title>
       
     
     
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#gitflow" class="md-skip">
+        <a href="#quiz" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Gitflow
+              Quiz
             
           </span>
         </div>
@@ -208,30 +206,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Gitflow
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../git_flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -240,35 +218,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#branches" class="md-nav__link">
-    <span class="md-ellipsis">
-      Branches
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -397,10 +346,19 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../quiz/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -409,6 +367,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -433,23 +392,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#branches" class="md-nav__link">
-    <span class="md-ellipsis">
-      Branches
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -463,16 +405,28 @@
                   
 
 
-<h1 id="gitflow">Gitflow</h1>
-<p><img alt="Image" src="../images/gitflow.png" /></p>
-<h2 id="branches">Branches</h2>
-<ul>
-<li><code>main</code>: Contains the code of the current production version.</li>
-<li><code>develop</code>: Development branch where new features and fixes are integrated.</li>
-<li><code>feature</code>: Temporary branches used for developing new features.</li>
-<li><code>hotfix</code>: Branches created to fix critical bugs in the production version.</li>
-<li><code>release</code>: Branch prepared to launch a new production version, allowing for minor adjustments.</li>
-</ul><style type="text/css">.quiz {
+<h1 id="quiz">Quiz</h1>
+<?/quiz?>
+
+<div class="quiz"><h3>1 - What command is used to initialize a new Git repository?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-0-0" correct><label for="quiz-0-0">git init</label></div><div><input type="radio" name="answer" value="1" id="quiz-0-1" ><label for="quiz-0-1">git start</label></div><div><input type="radio" name="answer" value="2" id="quiz-0-2" ><label for="quiz-0-2">git new</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git init</code> command creates a new Git repository in the current directory.</h2></section></div>
+
+<div class="quiz"><h3>2 - What is the command to clone a repository from a URL?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-1-0" correct><label for="quiz-1-0">git clone [URL]</label></div><div><input type="radio" name="answer" value="1" id="quiz-1-1" ><label for="quiz-1-1">git copy [URL]</label></div><div><input type="radio" name="answer" value="2" id="quiz-1-2" ><label for="quiz-1-2">git fetch [URL]</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git clone</code> command creates a local copy of a remote Git repository.</h2></section></div>
+
+<div class="quiz"><h3>3 - Which command adds a file to the staging area in Git?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-2-0" correct><label for="quiz-2-0">git add [file]</label></div><div><input type="radio" name="answer" value="1" id="quiz-2-1" ><label for="quiz-2-1">git stage [file]</label></div><div><input type="radio" name="answer" value="2" id="quiz-2-2" ><label for="quiz-2-2">git push [file]</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git add</code> command adds changes to the staging area, preparing them for a commit.</h2></section></div>
+
+<div class="quiz"><h3>4 - How do you create a new commit with a message in Git?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-3-0" correct><label for="quiz-3-0">git commit -m "[message]"</label></div><div><input type="radio" name="answer" value="1" id="quiz-3-1" ><label for="quiz-3-1">git save -m "[message]"</label></div><div><input type="radio" name="answer" value="2" id="quiz-3-2" ><label for="quiz-3-2">git push -m "[message]"</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git commit -m</code> command creates a commit with the staged changes and attaches a message.</h2></section></div>
+
+<div class="quiz"><h3>5 - Which command shows the current status of your working directory?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-4-0" correct><label for="quiz-4-0">git status</label></div><div><input type="radio" name="answer" value="1" id="quiz-4-1" ><label for="quiz-4-1">git show</label></div><div><input type="radio" name="answer" value="2" id="quiz-4-2" ><label for="quiz-4-2">git log</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git status</code> command provides information on the current state of your working directory and the index.</h2></section></div>
+
+<div class="quiz"><h3>6 - What command lists all branches in a repository?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-5-0" correct><label for="quiz-5-0">git branch</label></div><div><input type="radio" name="answer" value="1" id="quiz-5-1" ><label for="quiz-5-1">git list</label></div><div><input type="radio" name="answer" value="2" id="quiz-5-2" ><label for="quiz-5-2">git branches</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git branch</code> command shows all local branches in your repository.</h2></section></div>
+
+<div class="quiz"><h3>7 - Which command is used to switch between branches?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-6-0" correct><label for="quiz-6-0">git checkout [branch]</label></div><div><input type="radio" name="answer" value="1" id="quiz-6-1" ><label for="quiz-6-1">git switch [branch]</label></div><div><input type="radio" name="answer" value="2" id="quiz-6-2" ><label for="quiz-6-2">git branch [branch]</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git checkout</code> command is used to switch between branches in your Git repository.</h2></section></div>
+
+<div class="quiz"><h3>8 - How do you merge changes from one branch into another?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-7-0" correct><label for="quiz-7-0">git merge [branch]</label></div><div><input type="radio" name="answer" value="1" id="quiz-7-1" ><label for="quiz-7-1">git rebase [branch]</label></div><div><input type="radio" name="answer" value="2" id="quiz-7-2" ><label for="quiz-7-2">git integrate [branch]</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git merge</code> command integrates changes from one branch into another.</h2></section></div>
+
+<div class="quiz"><h3>9 - Which command fetches changes from a remote repository and merges them into your current branch?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-8-0" correct><label for="quiz-8-0">git pull</label></div><div><input type="radio" name="answer" value="1" id="quiz-8-1" ><label for="quiz-8-1">git fetch</label></div><div><input type="radio" name="answer" value="2" id="quiz-8-2" ><label for="quiz-8-2">git update</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git pull</code> command combines both <code>git fetch</code> and <code>git merge</code> in one step.</h2></section></div>
+
+<div class="quiz"><h3>10 - What is the command to send local changes to a remote repository?</h3><form><fieldset><div><input type="radio" name="answer" value="0" id="quiz-9-0" correct><label for="quiz-9-0">git push</label></div><div><input type="radio" name="answer" value="1" id="quiz-9-1" ><label for="quiz-9-1">git send</label></div><div><input type="radio" name="answer" value="2" id="quiz-9-2" ><label for="quiz-9-2">git upload</label></div></fieldset><button type="submit" class="quiz-button">Submit</button></form><section class="content hidden"><h2>The <code>git push</code> command sends your commits to a remote repository, such as GitHub.</h2></section></div><style type="text/css">.quiz {
   border: 1px solid black;
   padding: 1rem;
   margin: 1rem 0;
