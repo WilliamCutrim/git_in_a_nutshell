@@ -24,3 +24,14 @@ Common usage:
 ```
 git push origin main
 ```
+
+# Quick Question
+
+<?quiz?>
+question: What is the command to send local changes to a remote repository?
+answer-correct: git push
+answer: git send
+answer: git upload
+content:
+<h2>The <code>git push</code> command sends your commits to a remote repository, such as GitHub.</h2>
+<?/quiz?>

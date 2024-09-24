@@ -17,6 +17,25 @@ Branching in Git and Bitbucket allows developers to isolate their work from othe
 3. **Set Details:** Choose the branch name, type (feature, hotfix, etc.), and the base branch.
 4. **Create:** Click 'Create' to finalize the branch creation.
 
+## Quick Question
+
+<?quiz?>
+question: From which branch should all new development or hotfix branches be created?
+answer-correct: main
+answer: test_development
+answer: feature
+content:
+<h2>According to best practices, all branches for new development or hotfixes should be created from the <code>main</code> branch to ensure they start from a stable base.</h2>
+<?/quiz?>
+
+<?quiz?>
+question: Which command do you use to create and switch to a new branch simultaneously?
+answer-correct: git checkout -b new-branch-name
+answer: git branch -m new-branch-name
+answer: git switch new-branch-name
+content:
+<h2>To create and immediately switch to a new branch, you can use <code>git checkout -b new-branch-name</code>. This is a convenient shortcut for creating a new branch and then checking it out in one step.</h2>
+<?/quiz?>
 
 ## Extra Resources
 
